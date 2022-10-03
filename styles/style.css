@@ -30,12 +30,12 @@
 .logo {
   width: 228px;
   height: 32px;
-  background-image: url(../images/logo_place_header.svg);
 }
 
 .logo-place_header {
   position: absolute;
   top: 30px;
+  background-image: url(../images/logo_place_header.svg);
 }
 
 .header__title {
@@ -259,12 +259,9 @@
 
 .table__cell_theme_dark {
   width: 200px;
-  color: #fff;
   margin: 0;
   padding-top: 80px;
-}
-
-.table__heading_theme_dark {
+  color: #fff;
 }
 
 .kaufman__triangle {
@@ -277,3 +274,31 @@
   z-index: 1;
 }
 /* Раздел kaufman конец*/
+
+/* Раздел footer начало */
+.footer {
+  padding: 60px 0 40px;
+  background-color: #000;
+  position: relative;
+}
+.footer__columns {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+}
+
+.logo-place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__author {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  padding: 18px 0;
+}
+/* Раздел footer конец */
