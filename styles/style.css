@@ -198,7 +198,6 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  z-index: 0;
 }
 
 .feynman__title {
@@ -303,7 +302,6 @@
   margin: 0;
   flex-direction: column;
   flex-basis: 711px;
-  display: flex;
 }
 
 .footer__column_content_info {
