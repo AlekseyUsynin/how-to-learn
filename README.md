@@ -1,1 +1,1 @@
-[верстка первого проекта Яндукс Практикум](https://github.com/AlekseyUsynin/how-to-learn.git)
+[верстка первого проекта Яндукс Практикум](https://alekseyusynin.github.io/how-to-learn.git)
