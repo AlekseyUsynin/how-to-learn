@@ -9,6 +9,7 @@
   </head>
   <body>
     <div class="page">
+      <!-- header начало -->
       <header class="header">
         <div class="logo logo_place_header"></div>
         <h1 class="header__title">Научиться учиться</h1>
@@ -22,10 +23,13 @@
           src="images/header-image.png"
           alt="Мальчик"
         />
-        <div class="header__square-pic"></div>
+        <div class="header__square-pic rotation"></div>
       </header>
+      <!-- header конец -->
 
+      <!-- main начало -->
       <main class="content">
+        <!-- Секция description начало -->
         <section class="description">
           <div class="two-columns">
             <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -50,7 +54,9 @@
             </div>
           </div>
         </section>
+        <!-- Секция description конец -->
 
+        <!-- Секция techniques начало -->
         <section class="techniques">
           <h2 class="section-title">Техники обучения</h2>
           <p class="section-subtitle">Пять практик от Барбары Оакли</p>
@@ -122,7 +128,9 @@
             </li>
           </ul>
         </section>
+        <!-- Секция techniques конец -->
 
+        <!-- Секция video начало -->
         <section class="video">
           <h2 class="section-title">Видео нa TED</h2>
           <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
@@ -131,7 +139,6 @@
               class="video__iframe"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
@@ -139,13 +146,14 @@
               class="video__iframe"
               src="https://www.youtube.com/embed/arj7oStGLkU"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
         </section>
+        <!-- Секция video конец -->
 
+        <!-- Секция oakley начало -->
         <section class="oakley">
           <div class="two-columns">
             <h2 class="two-columns__brief">История Барбары Оакли.</h2>
@@ -163,14 +171,18 @@
             </div>
           </div>
         </section>
+        <!-- Секция oakley конец -->
 
+        <!-- Секция feynman начало -->
         <section class="feynman">
           <img class="feynman__image" src="images/feynman.png" alt="Фейнман" />
           <h2 class="feynman__title">Метод Фейнмана</h2>
           <p class="feynman__subtitle">Выучить и не забыть.</p>
           <a class="feynman__link" href="#" target="_blank">Подробнее &rarr;</a>
         </section>
+        <!-- Секция feynman конец -->
 
+        <!-- Секция digits начало -->
         <section class="digits">
           <h2 class="section-title">Цифры и факты</h2>
           <p class="section-subtitle">Про учёбу и мозг</p>
@@ -219,7 +231,9 @@
             </li>
           </ul>
         </section>
+        <!-- Секция digits конец -->
 
+        <!-- Секция khan начало -->
         <section class="khan">
           <div class="khan__container">
             <p class="khan__author">Салман Хан</p>
@@ -241,7 +255,9 @@
             </div>
           </div>
         </section>
+        <!-- Секция khan конец -->
 
+        <!-- Секция kaufman начало -->
         <section class="kaufman">
           <h2 class="section-title section-title_theme_dark">
             Принципы обучения
@@ -299,10 +315,55 @@
               </p>
             </li>
           </ul>
-          <div class="kaufman__triangle"></div>
+          <div class="kaufman__triangle rotation"></div>
         </section>
-      </main>
+        <!-- Секция kaufman конец -->
 
+        <!-- Секция resources начало -->
+        <section class="resources">
+          <h2 class="section-title">Полезные ресурсы</h2>
+          <p class="section-subtitle">
+            Больше материалов о техниках и лайфхаках обучения
+          </p>
+          <nav class="resources__logo-zone">
+            <a class="resources__link" href="#">
+              <img
+                class="resources__logo"
+                src="images/logo/resources-arzamas.svg"
+                alt="Амазон"
+              />
+            </a>
+
+            <a class="resources__link" href="#">
+              <img
+                class="resources__logo"
+                src="images/logo/resources-n1.svg"
+                alt="н+1"
+              />
+            </a>
+
+            <a class="resources__link" href="#">
+              <img
+                class="resources__logo"
+                src="images/logo/resources-strelka.svg"
+                alt="Стрелка"
+              />
+            </a>
+
+            <a class="resources__link" href="#">
+              <img
+                class="resources__logo"
+                src="images/logo/resources-polka.svg"
+                alt="Полка"
+              />
+            </a>
+          </nav>
+        </section>
+        <!-- Секция resources конец -->
+      </main>
+      <!-- main конец -->
+
+      <!-- footer начало -->
       <footer class="footer">
         <div class="footer__columns">
           <div class="footer__column footer__column_content_copyright">
@@ -365,6 +426,7 @@
           </nav>
         </div>
       </footer>
+      <!-- footer конец -->
     </div>
   </body>
 </html>

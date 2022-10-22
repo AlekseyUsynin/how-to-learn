@@ -1,10 +1,9 @@
-.header__link {
-  color: #2f80ed;
+.resources__link {
+  display: inline-block;
   text-decoration: none;
-  opacity: 1;
 }
 
-.header__link:hover {
+.resources__link:hover {
   opacity: 0.5;
   transition: opacity 0.5s linear;
 }
