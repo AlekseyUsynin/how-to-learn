@@ -21,3 +21,7 @@
 - CSS
 - Методология БЭМ
 - Файловая структура Nested БЭМ
+
+---
+
+[Ссылка на проект](https://alekseyusynin.github.io/russian-travel/)
