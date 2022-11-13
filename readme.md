@@ -24,4 +24,4 @@
 
 ---
 
-[Ссылка на проект](https://alekseyusynin.github.io/russian-travel/)
+[Ссылка на проект](https://alekseyusynin.github.io/how-to-learn/)
